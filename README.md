@@ -2,14 +2,14 @@
 Commodore 64 Keyboard to USB
 
 Permite conectar el teclado de una Commodore 64 a una PC
-a través del puesto USB, para su uso en el emulador VICE
+a través del puesto USB, para su uso en el emulador VICE. 
 Para ello utiliza una placa ARDUINO LEONARDO, y el simple código C64_USB_char4.ino
-que emplea las librerías keypad.h y keyboard.h
-En el pin 13 se conecta el POWER LED a través de una resistencia mayor a 330 Ohms
+que emplea las librerías keypad.h y keyboard.h  
+En el pin 13 se conecta el POWER LED a través de una resistencia mayor a 330 Ohms. 
 También hay que preveer un botón pulsador externo para la tecla ALT,
-que se ubicará en alguna ranura posterior del gabinete del Commodore 64, al alcance de la mano.
+que se ubicará en alguna ranura posterior del gabinete del Commodore 64, al alcance de la mano. 
 
-Esquema de conexión del conector de teclado del Commodore 64 a los pines de la placa Arduino LEONARDO:
+Esquema de conexión del conector de teclado del Commodore 64 a los pines de la placa Arduino LEONARDO:  
 
 Matriz         Pin        Pin
 Teclado C=64   Conector   Arduino
